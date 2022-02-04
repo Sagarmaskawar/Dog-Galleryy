@@ -1,13 +1,200 @@
-body {
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
+.body{
+  margin: 0;
+}
+/* nav bar css*/
+.navbar{
+  position: relative;
+  margin-top: -10px;
+  width: 100%;
+  height: 70px;
+  background-color: lightseagreen;
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+  
+}
+.navdog{
+  margin-left: 500px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.navbtn{
+  position: relative;
+  margin-right: 50px;
+  background-color: green;
+  width: 150px;
+  height: 40px;
+}
+/* Search Bar*/
+.search{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search input{
+  width: 40%;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+  font-size: 20px;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+/* Home css*/
+.Home{
+  width: 100%;
+  height: 100%;
+  
+  
+}
+/* Dog list css*/
+  .dog-map{
+    display: inline-block;
+    
+    padding-top: 10px;
+    margin-top: 50px;
+    margin: 40px;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    
+}
+.img{
+  width: 100px;
+  height: 90px;
+}
+/* dog card css*/
+.dogcard{
+  display: inline-block
+}
+ /* custom.js css*/
+.custom{
+  position: absolute;
+  margin-top: 49%;
+  margin-left: 30%;
+  width: 50%;
+  height: 400px;
+  color: black;
+  background-color:white;
+  border: 1px solid black;
+}
+.cust-top{
+  width: 100%;
+  height: 10%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  
+}
+.custname{
+  margin-left: 200px;
+}
+.close{
+  
+  margin-left: 200px;
+
+  color: red;
+}
+  
+.select{
+  margin-top: 50px;
+  color:black; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.select2{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  width: 120px;
+  height:20px;
+  border: 2px solid black;
+}
+.input{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  width: 120px;
+  height:20px;
+  border: 2px solid black;
+}
+  
+.submitbtn{
+  margin-left: 45%;
+  margin-top: 3%;
+  width: 100px;
+  height: 30px;
+  background-color: green;
+  color: white;
+}
+.imagerender{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  margin-top: 5px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+.values{
+  margin-left: 45%;
+  margin-top: 2%;
+}
+.value2{
+  margin-left: 30%;
+  margin-top:3%;
+}
+/* popup css*/
+.popup{
+  position: absolute;
+  margin-top: 17%;
+  margin-left: 28%;
+  margin-right: 15%;
+  width: 600px;
+  height: 500px;
+ background-color: white;
+ color: black;
+ border: 2px solid black;
+}
+.pophead{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.popclose{
+  color:red;
+  margin-left: 40%;
+
+}
+.popsub{
+  margin-left: 25%;
+}
+/* Moreimage css*/
+.moreimages{
+  width: 200px;
+  height: 100px;
+  margin-top: 10px;
+  border: 1px solid black;
+  margin: 10px;
+}
+.nobreed{
+  margin-left: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.morehead{
+  margin-left: 30%;
 }
